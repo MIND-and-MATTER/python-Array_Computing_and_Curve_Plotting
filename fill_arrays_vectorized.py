@@ -11,5 +11,4 @@ def h(x):
 xlist = np.linspace(-4, 4, 41)
 ylist = h(xlist)
 
-
 print(xlist, ylist)
