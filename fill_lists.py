@@ -1,11 +1,10 @@
 # Fill lists with function values
 
 import numpy as np
-import math as m
 
 def h(x):
-  num = m.exp(-(x*x)/2)
-  den = m.sqrt(2*m.pi)
+  num = np.exp(-(x*x)/2)
+  den = np.sqrt(2*np.pi)
   h = num / den
   return h
 
