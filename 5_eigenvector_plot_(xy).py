@@ -4,6 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 a = 1+ np.ones(5)
 m = np.diag(a)
 
